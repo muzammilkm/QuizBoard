@@ -35,11 +35,10 @@
                 </div>
                 <div class="col-md-4">
                     <div>
-                        <img 
-                            src="muzammil.jpg" 
-                             class="img-circle img-thumbnail" 
-                             alt="Muzammil Khaja Mohammed" 
-                             width="200" 
+                        <img src="muzammil.jpg"
+                             class="img-circle img-thumbnail"
+                             alt="Muzammil Khaja Mohammed"
+                             width="200"
                              height="200">
                         <h6>
                             <a href="mailto:muzammil.mohammed@valuelabs.com">
@@ -52,48 +51,35 @@
         </div>
         <div class="col-sm-6">
             <div class="well infobox">
-                <form>
-                    <table>
-                        <tr>
-                            <td>
-                                <label for="Name" class="col-md-2 control-label">Name</label>
-                            </td>
-                            <td>
-                                <div class="col-md-10">
-                                    <input type="text" placeholder="enter your name" /><br />
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="Mail" class="col-md-2 control-label">Mail</label>
-                            </td>
-                            <td>
-                                <div class="col-md-10">
-                                    <input type="email" placeholder="enter Mail" /><br />
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="Mail" class="col-md-2 control-label">Difficulty</label>
-                            </td>
-                            <td>
-                                <div class="col-md-10">
-                                    <select>
-                                        <option>Basic</option>
-                                        <option>Intermediate</option>
-                                        <option>Advanced</option>
-                                    </select>
-                                </div>
-                                <br />
-                            </td>
-                        </tr>
-                        <tr></tr>
-                        <tr>
-                            <td colspan="2"> <div class="col-md-10">  <input type="submit" value="Submit" style="btn-lg,btn-block.btn-raised;padding-top:10px;" /> </div></td>
-                        </tr>
-                    </table>
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label for="inputEmail" class="col-md-2 control-label">Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" placeholder="Enter your name" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail" class="col-md-2 control-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail" class="col-md-2 control-label">Difficulty</label>
+
+                        <div class="col-md-10">
+                            <select class="form-control">
+                                <option>Basic</option>
+                                <option>Intermediate</option>
+                                <option>Advanced</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="pull-right">
+                            <button type="submit" class="btn btn-success">Start</button>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>

@@ -18,7 +18,7 @@
                     }
                 })
                 .state('root.board', {
-                    url: '/',
+                    url: 'board',
                     title: "Board",
                     views: {
                         '@': {
@@ -32,7 +32,7 @@
                     }
                 })
                 .state('root.result', {
-                    url: '/',
+                    url: '/result',
                     title: "Result",
                     views: {
                         '@': {
