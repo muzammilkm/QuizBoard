@@ -1,7 +1,7 @@
 # QuizBoard
 
 <h2>References:</h2><br/><br/>
-<hr>
+
 Bootstrap Material:<br/>
 http://fezvrasta.github.io/bootstrap-material-design/#about<br/>
 http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html
