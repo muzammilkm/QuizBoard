@@ -1,0 +1,17 @@
+﻿body {
+    background: url('../images/kite.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.infobox
+{
+    opacity:0.7;
+}
+
+.page-header
+{
+    border-bottom:none;
+}
