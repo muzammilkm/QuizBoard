@@ -1,14 +1,16 @@
-﻿angular(function () {
+﻿(function (angular) {
 
-    angular.module("app.qbApp")
-    .controller("app.boardController", ['$http','$stateParams', boardController]);
-    function boardController($http, $stateParams) {
+    angular.module('qbApp')
+    .controller("qbApp.boardController", ['$http', '$stateParams', '$state', boardController]);
+    function boardController($http, $stateParams, $state) {
         var vm = this;
         vm.user = $stateParams.user;
         //Properties
         vm.quetions = [];
+        vm.text = "Next";
 
         //Methods
+        vm.getResult = getResult;
 
 
         inIt();
@@ -19,6 +21,10 @@
                 console.log(vm.quetions);
             })
         }
+        function getResult() {
+            $state.go('root.result');
+        }
+
 
     }
 })

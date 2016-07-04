@@ -23,7 +23,7 @@
                     views: {
                         '@': {
                             templateUrl: 'app/board/board.html',
-                            controller: 'app.boardController',
+                            controller: 'qbApp.boardController',
                             controllerAs: 'vm',
                             params: {
                                 user: null
@@ -32,12 +32,12 @@
                     }
                 })
                 .state('root.result', {
-                    url: '/result',
+                    url: 'result',
                     title: "Result",
                     views: {
                         '@': {
                             templateUrl: 'app/results/results.html',
-                            controller: 'app.resultsController',
+                            controller: 'qbApp.resultController',
                             controllerAs: 'vm'
                         },
                         params: {

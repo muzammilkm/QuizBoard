@@ -1,5 +1,4 @@
-﻿angular(function () {
-    angular.module("quizBoardApp", ['ui-router'])
-    .controller("quizBoardAppController", ['$rootScope']);
+﻿(function (angular) {
+
 })
 (angular);
