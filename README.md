@@ -1,10 +1,9 @@
 # QuizBoard
 
-<h2>References:</h2><br/><br/>
-
-Bootstrap Material:<br/>
-http://fezvrasta.github.io/bootstrap-material-design/#about<br/>
+###References:
+######Bootstrap Material:
+http://fezvrasta.github.io/bootstrap-material-design/#about
 http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html
 
-Animation:<br/>
+######Animation:
 http://embed.plnkr.co/NSTEv5/
