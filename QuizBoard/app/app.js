@@ -12,7 +12,7 @@
                     views: {
                         '@': {
                             templateUrl: 'app/user/user.html',
-                            controller: 'app.userController',
+                            controller: 'qbApp.userController',
                             controllerAs: 'vm'
                         }
                     }
