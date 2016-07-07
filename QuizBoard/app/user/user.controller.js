@@ -8,7 +8,7 @@
         vm.getStart = getStart;
 
         function getStart() {
-            $state.go('root.board');
+            $state.go('root.board',vm.user);
         }
     }
 
