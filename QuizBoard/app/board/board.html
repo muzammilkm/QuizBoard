@@ -4,19 +4,53 @@
         <hr />
         <div class="panel panel-inverse">
             <div class="panel-heading">
-                <h3 class="panel-title">Question {{questionNumber}}</h3>
+                <h3 class="panel-title">Question Board</h3>
             </div>
             <div class="panel-body">
-                <label for="quetions" class="control-label">quetions</label>
+                <div class="form-group">
+                    <p>Q 1 - Which of the following is not a core AngularJS directive.</p>
+
+
+
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="answers" value="option1"><span class="circle"></span><span class="check"></span>
+                            ng-app
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="answers" value="option2"><span class="circle"></span><span class="check"></span>
+                            ng-model
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="answers" value="option3"><span class="circle"></span><span class="check"></span>
+                            ng-bind
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="answers" value="option4"><span class="circle"></span><span class="check"></span>
+                            ng-state
+                        </label>
+                    </div>
+                </div>
+
 
 
             </div>
-            <button type="button" class="btn btn-success">{{vm.text}}</button>
+
+        </div>
+        <div class="row">
+            <div class="pull-left ">
+                <button type="button" class="btn btn-raised btn-primary">Previous</button>
+            </div>
+            <div class="pull-right ">
+                <button type="button" class="btn btn-raised btn-primary" ng-click="vm.getResult()">Next</button>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="pull-right ">
-            <button type="button" class="btn btn-raised btn-primary" ng-click="vm.getResult()">Next</button>
-        </div>
-    </div>
+
 </div>

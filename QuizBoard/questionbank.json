@@ -1,65 +1,21 @@
 ﻿[
     {
         "id": 1,
-        "category": "",
-        "question": "",
-        "options": [ "", "", "", "" ],
-        "answer": "",
+        "category": "0",
+        "question": "Q 2 - Which of the following is true about AngularJS expressions?",
+        "options": [ "Expressions are used to bind application data to html.", "Expressions are written inside double braces like {{ expression}}", "Expressions behave in same way as ng-bind directives.", "All of the above." ],
+        "answer": "All of the above",
         "points": 20,
         "duration": 20
     },
     {
         "id": 1,
-        "category": "",
-        "question": "",
-        "options": [ "", "", "", "" ],
-        "answer": "",
+        "category": "1",
+        "question": "Q 3 - Which of the following is true about lowercase filter?",
+        "options": [ "Lowercase filter converts a text to lower case text.", "Lowercase filter is a function which takes text as input.", " Both of the above.", "None of the above" ],
+        "answer": "Lowercase filter converts a text to lower case text.",
         "points": 20,
         "duration": 30
-    },
-    {
-        "id": 1,
-        "category": "",
-        "question": "",
-        "options": [ "", "", "", "" ],
-        "answer": "",
-        "points": 20,
-        "duration": 10
-    },
-    {
-        "id": 1,
-        "category": "",
-        "question": "",
-        "options": [ "", "", "", "" ],
-        "answer": "",
-        "points": 20,
-        "duration": 30
-    },
-    {
-        "id": 1,
-        "category": "",
-        "question": "",
-        "options": [ "", "", "", "" ],
-        "answer": "",
-        "points": 20,
-        "duration": 20
-    },
-    {
-        "id": 1,
-        "category": "",
-        "question": "",
-        "options": [ "", "", "", "" ],
-        "answer": "",
-        "points": 20,
-        "duration": 20
-    },
-    {
-        "id": 1,
-        "category": "",
-        "question": "",
-        "options": [ "", "", "", "" ],
-        "answer": "",
-        "points": 20,
-        "duration": 20
     }
+
 ]

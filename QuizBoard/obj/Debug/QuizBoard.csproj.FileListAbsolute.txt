@@ -1,6 +1,0 @@
-D:\Development\quizboard\QuizBoard\bin\QuizBoard.dll.config
-D:\Development\quizboard\QuizBoard\bin\QuizBoard.dll
-D:\Development\quizboard\QuizBoard\bin\QuizBoard.pdb
-D:\Development\quizboard\QuizBoard\obj\Debug\QuizBoard.csprojResolveAssemblyReference.cache
-D:\Development\quizboard\QuizBoard\obj\Debug\QuizBoard.dll
-D:\Development\quizboard\QuizBoard\obj\Debug\QuizBoard.pdb
