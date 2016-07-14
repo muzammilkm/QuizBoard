@@ -1,8 +1,8 @@
 ﻿[
     {
         "id": 1,
-        "category": "0",
-        "question": "Q 2 - Which of the following is true about AngularJS expressions?",
+        "category": "Basic",
+        "question": "Q 1 - Which of the following is true about AngularJS expressions?",
         "options": [ "Expressions are used to bind application data to html.", "Expressions are written inside double braces like {{ expression}}", "Expressions behave in same way as ng-bind directives.", "All of the above." ],
         "answer": "All of the above",
         "points": 20,
@@ -10,8 +10,8 @@
     },
     {
         "id": 1,
-        "category": "1",
-        "question": "Q 3 - Which of the following is true about lowercase filter?",
+        "category": "Intermediate",
+        "question": "Q 2 - Which of the following is true about lowercase filter?",
         "options": [ "Lowercase filter converts a text to lower case text.", "Lowercase filter is a function which takes text as input.", " Both of the above.", "None of the above" ],
         "answer": "Lowercase filter converts a text to lower case text.",
         "points": 20,

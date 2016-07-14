@@ -7,8 +7,8 @@
                 <h3 class="panel-title">Question Board</h3>
             </div>
             <div class="panel-body">
-                <div class="form-group" ng-repeat="eachquestion in vm.questions.data">
-                    <p> {{eachquestion.question}}.</p>
+                <div class="form-group" ng-repeat="eachquestion in vm.questions.data| filter:{category:vm.user.category}">
+                    <p> {{eachquestion.question}}</p>
                     <div class="radio">
                         <label>
                             <input type="radio" name="answers" value="option1"><span class="circle"></span><span class="check"></span>
@@ -34,7 +34,7 @@
                         </label>
                     </div>
                 </div>
-            </div>
+                </div>
 
         </div>
         <div class="row">

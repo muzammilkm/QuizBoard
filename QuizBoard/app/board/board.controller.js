@@ -9,6 +9,7 @@
         vm.questions = [];
         vm.text = "Next";
         vm.user = $stateParams.user;
+        console.log(vm.user.name);
         //Methods
         vm.getResult = getResult;
         function boardController(user) {
