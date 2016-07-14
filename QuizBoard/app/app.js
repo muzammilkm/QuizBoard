@@ -24,11 +24,11 @@
                         '@': {
                             templateUrl: 'app/board/board.html',
                             controller: 'qbApp.boardController',
-                            controllerAs: 'vm',
-                            params: {
-                                user: null
-                            }
+                            controllerAs: 'vm'
                         }
+                    },
+                    params: {
+                        user: null
                     }
                 })
                 .state('root.result', {
@@ -39,11 +39,11 @@
                             templateUrl: 'app/results/results.html',
                             controller: 'qbApp.resultController',
                             controllerAs: 'vm'
-                        },
-                        params: {
-                            user: null,
-                            result: null
                         }
+                    },
+                    params: {
+                        user: null,
+                        responseList: null
                     }
                 });
         }])
@@ -53,4 +53,5 @@
             });
             $.material.init()
         }]);
+
 }(angular));
