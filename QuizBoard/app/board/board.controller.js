@@ -6,10 +6,9 @@
         var vm = this;
         vm.user = $stateParams.user;
         //Properties
-        vm.quetions = [];
+        vm.questions = [];
         vm.text = "Next";
         vm.user = $stateParams.user;
-        console.log(vm.user.name);
         //Methods
         vm.getResult = getResult;
         function boardController(user) {
@@ -21,7 +20,7 @@
 
         function inIt() {
             $http.get('questionbank.json').then(function (data) {
-                vm.quetions = data;//$filter('filter')(data, { category: vm.user.category });
+                vm.questions = data;
             })
         }
         function getResult() {
