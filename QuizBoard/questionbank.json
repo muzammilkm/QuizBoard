@@ -1,21 +1,52 @@
 ﻿[
-    {
-        "id": 1,
-        "category": "Basic",
-        "question": "Q 1 - Which of the following is true about AngularJS expressions?",
-        "options": [ "Expressions are used to bind application data to html.", "Expressions are written inside double braces like {{ expression}}", "Expressions behave in same way as ng-bind directives.", "All of the above." ],
-        "answer": "All of the above",
-        "points": 20,
-        "duration": 20
-    },
-    {
-        "id": 1,
-        "category": "Intermediate",
-        "question": "Q 2 - Which of the following is true about lowercase filter?",
-        "options": [ "Lowercase filter converts a text to lower case text.", "Lowercase filter is a function which takes text as input.", " Both of the above.", "None of the above" ],
-        "answer": "Lowercase filter converts a text to lower case text.",
-        "points": 20,
-        "duration": 30
-    }
-
+  {
+    "category": "Basic",
+    "question": "Which of the following is true about AngularJS expressions?",
+    "options": [ { "text": "Expressions are used to bind application data to html.", "points": 0 },
+                 { "text": "Expressions are written inside double braces like {{ expression}}", "points": 0 },
+                 { "text": "Expressions behave in same way as ng-bind directives.", "points": 0 },
+                 { "text": "All of the above.", "points": 20 } ],
+    "answer": 4,
+    "duration": 5
+  },
+  {
+    "category": "Basic",
+    "question": "Which of the following is true about AngularJS expressions?",
+    "options": [ { "text": "Expressions are used to bind application data to html.", "points": 0 },
+                 { "text": "Expressions are written inside double braces like {{ expression}}", "points": 0 },
+                 { "text": "Expressions behave in same way as ng-bind directives.", "points": 0 },
+                 { "text": "All of the above.", "points": 20 } ],
+    "answer": 4,
+    "duration": 20
+  },
+  {
+    "category": "Basic",
+    "question": "Which of the following is true about AngularJS expressions?",
+    "options": [ { "text": "Expressions are used to bind application data to html.", "points": 0 },
+                 { "text": "Expressions are written inside double braces like {{ expression}}", "points": 0 },
+                 { "text": "Expressions behave in same way as ng-bind directives.", "points": 0 },
+                 { "text": "All of the above.", "points": 20 } ],
+    "answer": 4,
+    "duration": 20
+  },
+{
+    "category": "Basic",
+    "question": "Which of the following is true about AngularJS expressions?",
+    "options": [ { "text": "Expressions are used to bind application data to html.", "points": 0 },
+                 { "text": "Expressions are written inside double braces like {{ expression}}", "points": 0 },
+                 { "text": "Expressions behave in same way as ng-bind directives.", "points": 0 },
+                 { "text": "All of the above.", "points": 20 } ],
+    "answer": 4,
+    "duration": 20
+  },
+{
+    "category": "Basic",
+    "question": "Which of the following is true about AngularJS expressions?",
+    "options": [ { "text": "Expressions are used to bind application data to html.", "points": 0 },
+                 { "text": "Expressions are written inside double braces like {{ expression}}", "points": 0 },
+                 { "text": "Expressions behave in same way as ng-bind directives.", "points": 0 },
+                 { "text": "All of the above.", "points": 20 } ],
+    "answer": 4,
+    "duration": 20
+  }
 ]
