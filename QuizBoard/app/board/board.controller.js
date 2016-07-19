@@ -42,6 +42,7 @@
         }
 
         function nextQuestion() {
+            $interval.cancel(stopTime);
             if (vm.questions.length > vm.questionIndex) {
                 vm.currentQuestion = vm.questions[vm.questionIndex++];
                 startTimer();
