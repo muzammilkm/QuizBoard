@@ -77,9 +77,12 @@
     <Content Include="Content\styles.css" />
     <Content Include="Content\ui-bootstrap-csp.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\Correctimg.jpg" />
     <Content Include="Images\kite.jpg" />
     <Content Include="Images\minimal-flying-paper-plane.jpg" />
+    <Content Include="Images\Results.jpg" />
     <Content Include="Images\tools.jpg" />
+    <Content Include="Images\Wrong.jpg" />
     <Content Include="index.html" />
     <Content Include="questionbank.json" />
     <Content Include="Scripts\angular-animate.js" />
