@@ -1,42 +1,26 @@
-﻿<div class="page-header" id="banner">
-    <br />
-    <br />
+﻿<div class="col-lg-6 col-lg-offset-3">
 
-    <div class="row">
-        <h1>Hi {{vm.user.name | uppercase}},</h1>
-        <span class="text-capitalize">
-            <img src="images/Results.jpg"
-                 class="img-circle"
-                 alt="correct"
-                 width="100"
-                 height="100" />Results Time
-        </span>
-    </div>
-    <div class="col-sm-12">
-        <div class="well infobox">
-            <form class="form-horizontal">
-                <fieldset>
-                    <legend>
-                        Here are your results !
-                    </legend>
-                </fieldset>
-                <div class="form-group" ng-repeat="response in  vm.responseList">
-                    <p>{{response.question}}</p>
-                    <div>
-                        <p ng-class="{'text-success': response.answer == response.selectedOption, 'text-danger':  response.answer != response.selectedOption}">{{response.options[response.answer].text}}</p>
-                        <span class="col-md-10">
-                            <img ng-src="{{ (response.answer == response.selectedOption) ? 'images/Correctimg.jpg' :  'images/Wrong.jpg'}}"
-                                 class="img-circle"
-                                 alt="correct"
-                                 width="50"
-                                 height="50" />
-                        </span>
-                    </div>
-                </div>
-                <div>
-                    <p> Score : {{vm.score}} </p>
-                </div>
-            </form>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="well infobox">
+        <h1>Hi {{vm.user.name }},</h1>
+        <div class="well text-center">
+            <h2> Your Score </h2>
+            <h1 ng-class="{'text-danger': vm.score < 35,'text-warning': vm.score > 35 && vm.score < 50, 'text-success': vm.score > 70 }">{{vm.score}}</h1>
         </div>
     </div>
 </div>
