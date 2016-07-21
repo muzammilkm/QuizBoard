@@ -1,52 +1,116 @@
 ﻿[
-  {
-    "category": "Basic",
-    "question": "Which of the following is true about AngularJS expressions?",
-    "options": [ { "text": "Expressions are used to bind application data to html.", "points": 0 },
-                 { "text": "Expressions are written inside double braces like {{ expression}}", "points": 0 },
-                 { "text": "Expressions behave in same way as ng-bind directives.", "points": 0 },
-                 { "text": "All of the above.", "points": 20 } ],
-    "answer": 3,
-    "duration": 5
-  },
-  {
-    "category": "Basic",
-    "question": "Which of the following is true about AngularJS expressions?",
-    "options": [ { "text": "Expressions are used to bind application data to html.", "points": 0 },
-                 { "text": "Expressions are written inside double braces like {{ expression}}", "points": 0 },
-                 { "text": "Expressions behave in same way as ng-bind directives.", "points": 0 },
-                 { "text": "All of the above.", "points": 20 } ],
-    "answer": 3,
-    "duration": 20
-  },
-  {
-    "category": "Basic",
-    "question": "Which of the following is true about AngularJS expressions?",
-    "options": [ { "text": "Expressions are used to bind application data to html.", "points": 0 },
-                 { "text": "Expressions are written inside double braces like {{ expression}}", "points": 0 },
-                 { "text": "Expressions behave in same way as ng-bind directives.", "points": 0 },
-                 { "text": "All of the above.", "points": 20 } ],
-    "answer": 3,
-    "duration": 20
-  },
-{
-    "category": "Basic",
-    "question": "Which of the following is true about AngularJS expressions?",
-    "options": [ { "text": "Expressions are used to bind application data to html.", "points": 0 },
-                 { "text": "Expressions are written inside double braces like {{ expression}}", "points": 0 },
-                 { "text": "Expressions behave in same way as ng-bind directives.", "points": 0 },
-                 { "text": "All of the above.", "points": 20 } ],
-    "answer": 3,
-    "duration": 20
-  },
-{
-    "category": "Basic",
-    "question": "Which of the following is true about AngularJS expressions?",
-    "options": [ { "text": "Expressions are used to bind application data to html.", "points": 0 },
-                 { "text": "Expressions are written inside double braces like {{ expression}}", "points": 0 },
-                 { "text": "Expressions behave in same way as ng-bind directives.", "points": 0 },
-                 { "text": "All of the above.", "points": 20 } ],
-    "answer": 3,
-    "duration": 20
-  }
+
+    {
+        "category": "Basic",
+        "question": "What is the color of leaf?",
+        "options": [
+            { "text": "Blue.", "points": 0 },
+            { "text": "Red.", "points": 0 },
+            { "text": "Green.", "points": 0 },
+            { "text": "Yellow.", "points": 20 }
+        ],
+        "answer": 2,
+        "duration": 20
+    },
+      {
+        "category": "Basic",
+        "question": "President in 1973?",
+        "options": [
+            { "text": "V. V. Giri.", "points": 0 },
+            { "text": "R.R.RamaRaju.", "points": 0 },
+            { "text": "A.K.Sairam.", "points": 0 },
+            { "text": "Rao Ramesh.", "points": 20 }
+        ],
+        "answer": 0,
+        "duration": 20
+    },
+
+    {
+        "category": "Basic",
+        "question": "Which of the following is true about AngularJS expressions?",
+        "options": [
+            { "text": "Expressions are used to bind application data to html.", "points": 0 },
+            { "text": "Expressions are written inside double braces like {{ expression}}", "points": 0 },
+            { "text": "Expressions behave in same way as ng-bind directives.", "points": 0 },
+            { "text": "All of the above.", "points": 20 }
+        ],
+        "answer": 3,
+        "duration": 5
+    },
+    {
+        "category": "Intermediate",
+        "question": "Lead role in kabali?",
+        "options": [
+            { "text": "Rajani kanth.", "points": 0 },
+            { "text": "surya", "points": 0 },
+            { "text": "Chranjeevi", "points": 0 },
+            { "text": "Samantha.", "points": 20 }
+        ],
+        "answer": 0,
+        "duration": 20
+    },
+   
+      {
+        "category": "Intermediate",
+        "question": "What item not to fill in a glass,To make glass more space?",
+        "options": [
+            { "text": "ice tubes.", "points": 0 },
+            { "text": "Pebbels.", "points": 0 },
+            { "text": "Sand.", "points": 0 },
+            { "text": "Air.", "points": 20 }
+        ],
+        "answer": 2,
+        "duration": 20
+    },
+    {
+        "category": "Intermediate",
+        "question": "What is our national tree?",
+        "options": [
+            { "text": "Banyan tree.", "points": 0 },
+            { "text": "neem tree.", "points": 0 },
+            { "text": "Indian Rosewood.", "points": 0 },
+            { "text": "tulsi.", "points": 20 }
+        ],
+        "answer": 0,
+        "duration": 20
+    },
+    {
+        "category": "Advanced",
+        "question": "In response to external circumstances ___________________ people adjust their behavior.?",
+        "options": [
+            { "text": "intelligent.", "points": 0 },
+            { "text": "depressed.", "points": 0 },
+            { "text": "self-conscious.", "points": 0 },
+            { "text": "unintelligent.", "points": 20 }
+        ],
+        "answer": 0,
+        "duration": 20
+    },
+    {
+        "category": "Advanced",
+        "question": "Is mobile is important in human life?",
+        "options": [
+            { "text": "yes.", "points": 0 },
+            { "text": "No.", "points": 0 },
+            { "text": "Depends.", "points": 0 },
+            { "text": "Waste product.", "points": 20 }
+        ],
+        "answer": 2,
+        "duration": 20
+    },
+     {
+        "category": "Advanced",
+        "question": "What to do?",
+        "options": [
+            { "text": "End the session.", "points": 0 },
+            { "text": "Continue.", "points": 0 },
+            { "text": "Anything.", "points": 0 },
+            { "text": "Lunch.", "points": 20 }
+        ],
+        "answer": 0,
+        "duration": 20
+    }
+
+
+
 ]
